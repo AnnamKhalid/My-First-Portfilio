@@ -9,7 +9,60 @@ body {
   line-height: 1.5;
 }
 
-h1,
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(52, 52, 61);
+  height: 10vh;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 250%;
+  color: rgb(52, 52, 61);
+  background-color: #acddd9;
+  padding: 0% 1% 0% 5%;
+ 
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+  min-width: 400px;
+  padding: 1%;
+  font-size: 110%;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+  text-decoration-color: #acddd9;
+
+}
+nav a {
+  color: #acddd9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero-banner {
+  position: relative;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 7%;
+  }
+  
+  #heading {
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    font-size: 200%;
+    background-color: #acddd9;
+  }
+  
+    
 h2,
 h3,
 h4,
