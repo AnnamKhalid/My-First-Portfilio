@@ -9,15 +9,63 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+header {
+  background-color: #31343d;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1%;
 }
 
-p {
-  margin: 0;
+header h1 {
+  background-color: #92cccd;
+  font-size: 55px;
+  line-height: normal;
+  padding: 0 15px 0 5%;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #31343d;
+}
+header nav {
+  padding-right: 5%;
+}
+
+
+.top {
+  display: flex;
+  list-style: none;
+}
+
+.top li {
+  padding: 5px;
+}
+
+.top a {
+  color: #92cccd;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-bottom: 4px solid #92cccd;
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 195px;
+  position: relative;
+}
+
+.hero-banner h2 {
+  background-color: #92cccd;
+  color:#31343d;
+  font-size: 30px;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 5%;
 }
