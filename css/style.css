@@ -69,3 +69,81 @@ header nav {
   bottom: 20px;
   right: 5%;
 }
+
+
+.page-wrapper{
+  width: 95%;
+  padding-bottom: 120px;
+  margin: 40px auto 0px auto;
+  display: grid;
+  grid-template-columns: 15% 75%;
+  gap: 5%;
+}
+
+.page-section {
+  border-right: 5px solid #31343d;
+  padding-right: 15%;
+}
+
+h2 {
+  color: #31343d;
+  text-align: end;
+  font-size: 45px;
+}
+
+.profile {
+  width: 25%;
+  margin: 0 2% 0 0;
+  border: 5px solid #92cccd;
+  float: left;
+}
+
+p {
+  position: relative;
+  padding-top: 0;
+}
+
+#portfolio {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 405px 210px 210px;
+  grid-template-areas:
+    "p1 p1" "p2 p3" "p4 p5";
+  gap: 25px;
+}
+
+#portfolio a {
+  color: #31343d;
+  text-decoration: none;
+}
+
+.p1 {
+  grid-area: p1;
+}
+.p2 {
+  grid-area: p2;
+}
+.p3 {
+  grid-area: p3;
+}
+.p4 {
+  grid-area: p4;
+}
+.p5 {
+  grid-area: p5;
+}
+
+figure {
+  width: 100%;
+  position: relative;
+}
+
+#portfolio img {
+  border: 6px solid #92cccd;
+  object-fit:cover;
+  width: 100%;
+  filter: sepia(30%);
+  opacity: 70%;
+  margin: -13px -37px;
+}
