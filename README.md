@@ -1,18 +1,15 @@
 # My-First-Portfilio
-
+![Alt text](images/portfolio_webpage_screenshot.png)
 ## Description
 
+A template portfolio was created for the purpose of showcasing skills acquired throughout the Front-end Web Development Programme. The template was created by implementing recent topics covered within the bootcamp which include; flexbox, media queries, and CSS variables. The portfoilio created was to match the below webpage's apperance and functionality:
 
+![Alt text](images/01-css-challenge-demo.gif)
 
 ## Webpage
 
 The link to my completed webpage [GitHub Pages]().
 
-N/A
-
-## Usage
-
-To use this Prework Study Guide, you can review the notes in each section. For suggestions on what to study first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a list of topics we learned from the prework along with a suggestion on which topic to study first.
 
 ## Credits
 
@@ -21,4 +18,3 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo.
-A portfolio page showcasing skills I have acquired throughout the Front-end Web Development Programme.
