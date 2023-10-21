@@ -8,7 +8,7 @@ A template portfolio was created for the purpose of showcasing skills acquired t
 
 ## Webpage
 
-The link to my completed webpage [My-First-Portfolio](https://annamkhalid.github.io/My-First-Portfilio).
+The link to my completed webpage [My-First-Portfolio](https://annamkhalid.github.io/My-First-Portfilio/).
 
 
 ## Credits
